@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flask Sentiment Analysis</title>
+</head>
+<body>
+<form action="/result" method = "POST"> <!-- defines onClick redirect route, method of request --> 
+	<input type = "text" name = "Name"> <!-- name="Name" is used in flask to fetch input using request.form --> 
+	<input type = "submit" name = "submit"> <!-- submit event --> 
+	<h2>Polarity: {{ result }}</h2> <!-- {{ }} represent jinja template variable. result is passed an an argument while rendering template --> 
+</form>
+</body>
+</html>
