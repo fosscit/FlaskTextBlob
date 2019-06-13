@@ -10,8 +10,8 @@ The source code for the tutorial is available in [GitHub](https://github.com/Sai
 
 Let’s create 2 empty files:
 
-* app.py
-* index.html
+* [app.py](https://github.com/Sai-Adarsh/FlaskTextBlob/blob/master/app.py)
+* [index.html](https://github.com/Sai-Adarsh/FlaskTextBlob/blob/master/index.html)
 
 Flask naming conventions recommends placing templates, HTML files inside templates folder. So your directory should look like this:
 
